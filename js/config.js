@@ -124,6 +124,9 @@ const quizModals = [
             type: 'hotspot',
             question: 'Was fehlt für einen sicheren Laborversuch? Klicke alle Sicherheitsmängel an.',
             image: 'assets/labor.png',
+            // Textalternative fürs Suchbild: beschreibt die Szene, verrät aber
+            // die Mängel nicht (WCAG 1.1.1, Ausnahme für Tests/Übungen)
+            imageAlt: 'Suchbild: Studierende arbeiten an einer Laborbank mit Pipetten, Proben und einer Zentrifuge.',
             // x,y in %, radius in % der Bildbreite
             // debug: true blendet die Hotspot-Zonen als gestrichelte Kreise ein (nur zum Justieren)
             debug: false,
